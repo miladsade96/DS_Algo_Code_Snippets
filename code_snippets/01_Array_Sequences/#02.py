@@ -48,6 +48,9 @@ def main():
     # appending into arr
     arr.append(1)
 
+    # length of arr
+    print(f"Length: {len(arr)}")
+
 
 if __name__ == '__main__':
     main()
