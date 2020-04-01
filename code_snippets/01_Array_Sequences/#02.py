@@ -42,7 +42,11 @@ class DynamicArray(object):
 
 
 def main():
-    pass
+    # creating a dynamic array
+    arr = DynamicArray()
+
+    # appending into arr
+    arr.append(1)
 
 
 if __name__ == '__main__':
