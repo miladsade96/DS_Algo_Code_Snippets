@@ -21,3 +21,10 @@ class DynamicArray(object):
             return IndexError("item is out of bounds!")
         else:
             return self.A[item]
+
+    def append(self, item):
+        if self.n == self.capacity:
+            # 2x if capacity is not enough
+            self._resize(2 * self.capacity)
+        self.A[self.n] = item
+        self.n += 1
