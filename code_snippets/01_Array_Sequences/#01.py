@@ -7,3 +7,6 @@ import sys
 
 # Setting n
 n = 50
+
+# Creating an empty list named `data`
+data = []
