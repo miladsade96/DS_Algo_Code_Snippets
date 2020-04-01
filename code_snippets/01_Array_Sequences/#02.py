@@ -35,3 +35,7 @@ class DynamicArray(object):
             B[k] = self.A[k]
         self.A = B
         self.capacity = new_capacity
+
+    @staticmethod
+    def make_array(self, new_capacity):
+        return (new_capacity * ctypes.py_object)()
