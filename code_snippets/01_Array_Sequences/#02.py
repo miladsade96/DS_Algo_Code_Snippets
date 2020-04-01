@@ -28,3 +28,10 @@ class DynamicArray(object):
             self._resize(2 * self.capacity)
         self.A[self.n] = item
         self.n += 1
+
+    def _resize(self, new_capacity):
+        B = self.make_array(new_capacity)
+        for k in range(self.n):
+            B[k] = self.A[k]
+        self.A = B
+        self.capacity = new_capacity
