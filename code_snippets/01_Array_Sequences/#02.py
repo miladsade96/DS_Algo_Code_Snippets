@@ -15,3 +15,9 @@ class DynamicArray(object):
 
     def __len__(self):
         return self.n
+
+    def __getitem__(self, item):
+        if not 0 <= item < self.n:
+            return IndexError("item is out of bounds!")
+        else:
+            return self.A[item]
