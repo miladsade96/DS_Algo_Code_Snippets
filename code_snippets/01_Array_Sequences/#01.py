@@ -4,3 +4,6 @@
 """
 
 import sys
+
+# Setting n
+n = 50
