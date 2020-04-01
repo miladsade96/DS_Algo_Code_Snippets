@@ -57,6 +57,10 @@ def main():
     # length of arr
     print(f"Length: {len(arr)}")
 
+    # accessing using indexing method
+    print(f"arr[0]: {arr[0]}")
+    print(f"arr[1]: {arr[1]}")
+
 
 if __name__ == '__main__':
     main()
