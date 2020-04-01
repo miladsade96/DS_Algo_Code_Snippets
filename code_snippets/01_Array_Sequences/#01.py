@@ -10,3 +10,15 @@ n = 50
 
 # Creating an empty list named `data`
 data = []
+
+for i in range(n):
+    # Number of elements
+    a = len(data)
+
+    # Actual size of bytes
+    b = sys.getsizeof(data)
+
+    print("Length: {0:3d}; size in bytes: {1:4d}".format(a, b))
+
+    # Increase length by one
+    data.append(n)
