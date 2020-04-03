@@ -54,3 +54,9 @@ def anagram_2(s1: str, s2: str) -> bool:
             count[letter] += 1
         else:
             count[letter] = 1
+
+    for letter in s2:
+        if letter in count:
+            count[letter] -= 1
+        else:
+            count[letter] = 1
