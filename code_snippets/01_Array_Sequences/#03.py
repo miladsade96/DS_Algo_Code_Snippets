@@ -29,3 +29,8 @@ def anagram_1(s1: str, s2: str) -> bool:
     s2 = s2.replace(" ", "").lower()
 
     return sorted(s1) == sorted(s2)
+
+
+# Testing anagram_1
+print(anagram_1("god", "dog"))
+print(anagram_1("clint eastwood", "old west action"))
