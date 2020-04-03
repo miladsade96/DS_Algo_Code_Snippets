@@ -41,3 +41,7 @@ def anagram_2(s1: str, s2: str) -> bool:
     # Remove and lowercase all letters
     s1 = s1.replace(" ", "").lower()
     s2 = s2.replace(" ", "").lower()
+
+    # Edge case check
+    if len(s1) != len(s2):
+        return False
