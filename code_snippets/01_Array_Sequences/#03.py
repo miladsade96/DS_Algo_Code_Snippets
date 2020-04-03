@@ -8,7 +8,7 @@
 
         For example:
             "public relations" is an anagram of "crap built on lies"
-            "client eastwood" is an anagram of "old west action"
+            "clint eastwood" is an anagram of "old west action"
 
     Note:
         Ignore spaces and capitalization. So "d go" is an anagram of "God" and "dog" and "o d g"
