@@ -20,3 +20,12 @@
         up the same number of times in both strings), then they are anagrams of each other.
 
 """
+
+
+def anagram_1(s1: str, s2: str) -> bool:
+    "Implementation of first solution"
+    # Remove whitespaces and lowercase all letters
+    s1 = s1.replace(" ", "").lower()
+    s2 = s2.replace(" ", "").lower()
+
+    return sorted(s1) == sorted(s2)
