@@ -64,16 +64,18 @@ def anagram_2(s1: str, s2: str) -> bool:
 
 def main():
     # Testing anagram_1
-    print("Testing anagram_1 function".center(50, "*"))
-    print(anagram_1("god", "dog"))
-    print(anagram_1("clint eastwood", "old west action"))
+    print(" Testing anagram_1 function ".center(50, "*"))
+    print(f"'god' is an anagram of 'dog': {anagram_1('god', 'dog')}")
+    print(f"'clint eastwood' is an anagram of 'old west action':"
+          f"{anagram_1('clint eastwood', 'old west action')}")
 
     print("\n")
 
     # Testing anagram_2
-    print("Testing anagram_2 function".center(50, "*"))
-    print(anagram_2("god", "dog"))
-    print(anagram_2("clint eastwood", "old west action"))
+    print(" Testing anagram_2 function ".center(50, "*"))
+    print(f"'god' is an anagram of 'dog': {anagram_2('god', 'dog')}")
+    print(f"'clint eastwood' is an anagram of 'old west action':"
+          f"{anagram_2('clint eastwood', 'old west action')}")
 
 
 if __name__ == '__main__':
