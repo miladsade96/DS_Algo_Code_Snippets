@@ -74,3 +74,7 @@ def main():
     print("Testing anagram_2 function".center(50, "*"))
     print(anagram_2("god", "dog"))
     print(anagram_2("clint eastwood", "old west action"))
+
+
+if __name__ == '__main__':
+    main()
