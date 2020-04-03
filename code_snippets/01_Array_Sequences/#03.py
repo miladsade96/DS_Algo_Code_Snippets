@@ -31,11 +31,6 @@ def anagram_1(s1: str, s2: str) -> bool:
     return sorted(s1) == sorted(s2)
 
 
-# Testing anagram_1
-print(anagram_1("god", "dog"))
-print(anagram_1("clint eastwood", "old west action"))
-
-
 def anagram_2(s1: str, s2: str) -> bool:
     """Implementation of second solution"""
     # Remove and lowercase all letters
@@ -68,4 +63,14 @@ def anagram_2(s1: str, s2: str) -> bool:
 
 
 def main():
-    pass
+    # Testing anagram_1
+    print("Testing anagram_1 function".center(50, "*"))
+    print(anagram_1("god", "dog"))
+    print(anagram_1("clint eastwood", "old west action"))
+
+    print("\n")
+
+    # Testing anagram_2
+    print("Testing anagram_2 function".center(50, "*"))
+    print(anagram_2("god", "dog"))
+    print(anagram_2("clint eastwood", "old west action"))
