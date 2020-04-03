@@ -65,3 +65,7 @@ def anagram_2(s1: str, s2: str) -> bool:
         if count[k] != 0:
             return False
     return True
+
+
+def main():
+    pass
