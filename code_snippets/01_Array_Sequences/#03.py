@@ -60,3 +60,8 @@ def anagram_2(s1: str, s2: str) -> bool:
             count[letter] -= 1
         else:
             count[letter] = 1
+
+    for k in count:
+        if count[k] != 0:
+            return False
+    return True
