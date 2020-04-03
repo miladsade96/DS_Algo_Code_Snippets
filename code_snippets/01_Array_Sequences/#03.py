@@ -45,3 +45,12 @@ def anagram_2(s1: str, s2: str) -> bool:
     # Edge case check
     if len(s1) != len(s2):
         return False
+
+    # Defining an empty dictionary
+    count = {}
+
+    for letter in s1:
+        if letter in count:
+            count[letter] += 1
+        else:
+            count[letter] = 1
