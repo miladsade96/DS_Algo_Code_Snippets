@@ -40,3 +40,8 @@ def pair_sum(arr: list, k: int) -> int:
         else:
             output.add((min(num, target), max(num, target)))
     return len(output)
+
+
+def main():
+    # Testing pair_sum()
+    print(pair_sum([1, 3, 2, 2], 4))
