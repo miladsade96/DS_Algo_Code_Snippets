@@ -45,3 +45,7 @@ def pair_sum(arr: list, k: int) -> int:
 def main():
     # Testing pair_sum()
     print(pair_sum([1, 3, 2, 2], 4))
+
+
+if __name__ == '__main__':
+    main()
