@@ -28,3 +28,7 @@ def pair_sum(arr: list, k: int) -> int:
     # return 0 if length of list is less than 2
     if len(arr) < 2:
         return 0
+
+    # Sets for tracking
+    seen = set()
+    output = set()
