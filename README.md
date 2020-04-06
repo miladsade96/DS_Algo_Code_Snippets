@@ -5,3 +5,4 @@ Python Data Structures and Algorithms Code Snippets
 * [Array Sequences:](/code_snippets/01_Array_Sequences):
     * [Relationship between list length and underlying size](/code_snippets/01_Array_Sequences/Number_01.py)
     * [Dynamic array implementation](/code_snippets/01_Array_Sequences/Number_02.py)
+    * [Anagram check](/code_snippets/01_Array_Sequences/Number_03.py)
