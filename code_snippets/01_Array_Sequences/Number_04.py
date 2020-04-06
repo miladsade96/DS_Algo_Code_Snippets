@@ -24,4 +24,7 @@
 
 
 def pair_sum(arr: list, k: int) -> int:
-    pass
+    """ Implementation of array pair sum solution"""
+    # return 0 if length of list is less than 2
+    if len(arr) < 2:
+        return 0
