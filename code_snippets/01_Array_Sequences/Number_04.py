@@ -21,3 +21,7 @@
         does't belong to a pair yet, and we add it to the set of seen element
 
 """
+
+
+def pair_sum(arr: list, k: int) -> int:
+    pass
