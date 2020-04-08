@@ -48,3 +48,7 @@ def main():
 
     print(f"arr = [1, 2, -1, 3, 4, 10, 10, -10, -1] , "
           f"largest continuous sum --> {large_cont_sum([1, 2, -1, 3, 4, 10, 10, -10, -1])}")
+
+
+if __name__ == '__main__':
+    main()
