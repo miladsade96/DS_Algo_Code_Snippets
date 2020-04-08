@@ -40,4 +40,11 @@ def large_cont_sum(arr: list) -> int:
 
 
 def main():
-    pass
+    # testing large_cont_sum function
+    print(f"arr = [8] , largest continuous sum --> {large_cont_sum([8])}")
+
+    print(f"arr = [1, 2, -3, 10, -8, -5, 4, 7, 2, 9, -6] , "
+          f"largest continuous sum --> {large_cont_sum([1, 2, -3, 10, -8, -5, 4, 7, 2, 9, -6])}")
+
+    print(f"arr = [1, 2, -1, 3, 4, 10, 10, -10, -1] , "
+          f"largest continuous sum --> {large_cont_sum([1, 2, -1, 3, 4, 10, 10, -10, -1])}")
