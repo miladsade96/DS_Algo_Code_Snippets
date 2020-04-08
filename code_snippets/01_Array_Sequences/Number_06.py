@@ -28,3 +28,6 @@ def large_cont_sum(arr: list) -> int:
     # checking edge case
     if len(arr) == 0:
         return 0
+
+    # defining max and current sum and assign first element to them
+    max_sum = current_sum = arr[0]
