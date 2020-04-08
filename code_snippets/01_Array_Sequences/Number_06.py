@@ -17,3 +17,7 @@
         sum to 0 because array can contain all negative integers. Then the result would be
         the largest negative number.
 """
+
+
+def large_cont_sum(arr: list) -> int:
+    pass
