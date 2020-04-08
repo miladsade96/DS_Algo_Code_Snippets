@@ -57,3 +57,7 @@ def finder_1(arr1: list, arr2: list) -> int:
             return num1
     # otherwise return last element
     return arr1[-1]
+
+
+def finder_2(arr1:list, arr2: list) -> int:
+    pass
