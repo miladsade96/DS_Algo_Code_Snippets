@@ -66,3 +66,5 @@ def finder_2(arr1:list, arr2: list) -> int:
     :param arr2: given second list
     :return: missing element
     """
+    # using defaultdict to avoid key errors
+    d = defaultdict(int)
