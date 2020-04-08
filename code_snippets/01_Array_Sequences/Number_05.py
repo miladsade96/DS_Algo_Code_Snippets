@@ -68,3 +68,14 @@ def finder_2(arr1:list, arr2: list) -> int:
     """
     # using defaultdict to avoid key errors
     d = defaultdict(int)
+
+    # Add a count for every instance in arr2:
+    for num in arr2:
+        d[num] += 1
+    # check if num not in dictionary
+    for num in arr1:
+        if d[num] == 0:
+            return num
+        # otherwise subtract the count
+        else:
+            d[num] -= 1
