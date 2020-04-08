@@ -42,3 +42,10 @@ def finder_1(arr1: list, arr2: list) -> int:
     # sort the arrays
     arr1.sort()
     arr2.sort()
+
+    # compare elements in the sorted arrays
+    for num1, num2 in zip(arr1, arr2):
+        if num1 != num2:
+            return num1
+    # otherwise return last element
+    return arr1[-1]
