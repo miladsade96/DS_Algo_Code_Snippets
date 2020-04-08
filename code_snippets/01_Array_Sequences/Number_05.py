@@ -87,3 +87,9 @@ def main():
           f"missing element is --> {finder_1([1,2,3,4,5,6,7], [3, 7, 2, 1, 4, 6])}")
     print(f"arr1 = [5, 5, 7, 7] and arr2 = [5, 5, 7] :"
           f"missing element is --> {finder_1([5, 5, 7, 7], [5, 5, 7])}")
+
+    # testing finder_2 function
+    print(f"arr1 = [1,2,3,4,5,6,7] and arr2 = [3,7,2,1,4,6] :"
+          f"missing element is --> {finder_1([1, 2, 3, 4, 5, 6, 7], [3, 7, 5, 1, 4, 6])}")
+    print(f"arr1 = [5, 5, 7, 7] and arr2 = [5, 5, 7] :"
+          f"missing element is --> {finder_1([5, 5, 7, 7], [5, 7, 7])}")
