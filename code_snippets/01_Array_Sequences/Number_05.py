@@ -30,3 +30,7 @@
         values we can stop. The value of the first iterator is the missing element. This
         solution is also O(NlogN).
 """
+
+
+def finder_1(arr1: list, arr2: list) -> int:
+    pass
