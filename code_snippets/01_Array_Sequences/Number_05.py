@@ -33,4 +33,9 @@
 
 
 def finder_1(arr1: list, arr2: list) -> int:
-    pass
+    """
+    First approach to solve the problem
+    :param arr1: given first list
+    :param arr2: given second list
+    :return: missing element
+    """
