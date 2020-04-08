@@ -25,3 +25,6 @@ def large_cont_sum(arr: list) -> int:
     :param arr: Given an array
     :return: largest continuous sum
     """
+    # checking edge case
+    if len(arr) == 0:
+        return 0
