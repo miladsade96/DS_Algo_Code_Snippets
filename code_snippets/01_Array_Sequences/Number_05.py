@@ -29,6 +29,11 @@
         both arrays and iterate over them simultaneously. Once two iterators have different
         values we can stop. The value of the first iterator is the missing element. This
         solution is also O(NlogN).
+
+        In most interviews, you would be expected to come up with a linear time solution.
+        We can use a hashtable and store the number of times each element appears in the
+        second array. Then for each element in the first array we decrement its counter.
+        Once hit an element with zero count that’s the missing element.
 """
 
 
