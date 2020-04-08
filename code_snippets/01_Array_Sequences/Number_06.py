@@ -20,4 +20,8 @@
 
 
 def large_cont_sum(arr: list) -> int:
-    pass
+    """
+    Implementation of largest continuous sum
+    :param arr: Given an array
+    :return: largest continuous sum
+    """
