@@ -36,6 +36,9 @@
         Once hit an element with zero count that’s the missing element.
 """
 
+# importing relevant libraries
+from collections import defaultdict
+
 
 def finder_1(arr1: list, arr2: list) -> int:
     """
