@@ -79,3 +79,7 @@ def finder_2(arr1:list, arr2: list) -> int:
         # otherwise subtract the count
         else:
             d[num] -= 1
+
+
+def main():
+    pass
