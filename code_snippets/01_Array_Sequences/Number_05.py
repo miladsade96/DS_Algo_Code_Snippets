@@ -39,3 +39,6 @@ def finder_1(arr1: list, arr2: list) -> int:
     :param arr2: given second list
     :return: missing element
     """
+    # sort the arrays
+    arr1.sort()
+    arr2.sort()
