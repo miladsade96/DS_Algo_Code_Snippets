@@ -17,3 +17,11 @@
         We could take advantage of python's abilities and solve the problem with
         the use of split() and some slicing or use of reversed.
 """
+
+
+def rev_word_1(s: str) -> str:
+    """
+    Implementation of solution using join, split and reversed
+    :param s: Given string
+    :return: Reversed string
+    """
