@@ -89,3 +89,7 @@ def main():
           f"{rev_word_3(sample_string_2)}")
     print(f"'What are you doing?    ' --> reversed ---> "
           f"{rev_word_3(sample_string_3)}")
+
+
+if __name__ == '__main__':
+    main()
