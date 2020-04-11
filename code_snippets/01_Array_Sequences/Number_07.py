@@ -35,3 +35,11 @@ def rev_word_2(s: str) -> str:
     :return: Reversed string
     """
     return " ".join(s.split()[::-1])
+
+
+def rev_word_3(s: str) -> str:
+    """
+    Implementation of manually doing the splits on the spaces
+    :param s: Given string
+    :return: Reversed string
+    """
