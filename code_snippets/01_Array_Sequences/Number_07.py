@@ -59,4 +59,6 @@ def rev_word_3(s: str) -> str:
 
 
 def main():
-    pass
+    sample_string_1 = "    How are you?"
+    sample_string_2 = "if you can imagine it, so you can do it"
+    sample_string_3 = "What are you doing?    "
