@@ -62,3 +62,30 @@ def main():
     sample_string_1 = "    How are you?"
     sample_string_2 = "if you can imagine it, so you can do it"
     sample_string_3 = "What are you doing?    "
+
+    # Testing rev_word_1() function
+    print(" Testing rev_word_1 ".center(50, "*"))
+    print(f"'     How are you?' --> reversed ---> "
+          f"{rev_word_1(sample_string_1)}")
+    print(f"'if you can imagine it, so you can do it' --> reversed ---> "
+          f"{rev_word_1(sample_string_2)}")
+    print(f"'What are you doing?    ' --> reversed ---> "
+          f"{rev_word_1(sample_string_3)}")
+    print("\n")
+    # Testing rev_word_2() function
+    print(" Testing rev_word_2 ".center(50, "*"))
+    print(f"'     How are you?' --> reversed ---> "
+          f"{rev_word_2(sample_string_1)}")
+    print(f"'if you can imagine it, so you can do it' --> reversed ---> "
+          f"{rev_word_2(sample_string_2)}")
+    print(f"'What are you doing?    ' --> reversed ---> "
+          f"{rev_word_2(sample_string_3)}")
+    print("\n")
+    # Testing rev_word_3() function
+    print(" Testing rev_word_3 ".center(50, "*"))
+    print(f"'     How are you?' --> reversed ---> "
+          f"{rev_word_3(sample_string_1)}")
+    print(f"'if you can imagine it, so you can do it' --> reversed ---> "
+          f"{rev_word_3(sample_string_2)}")
+    print(f"'What are you doing?    ' --> reversed ---> "
+          f"{rev_word_3(sample_string_3)}")
