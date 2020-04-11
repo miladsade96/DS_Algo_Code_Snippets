@@ -26,3 +26,11 @@ def rev_word_1(s: str) -> str:
     :return: Reversed string
     """
     return " ".join(reversed(s.split()))
+
+
+def rev_word_2(s: str) -> str:
+    """
+    Implementation of solution using join, split and slicing
+    :param s: Given string
+    :return: Reversed string
+    """
