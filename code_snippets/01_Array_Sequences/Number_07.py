@@ -43,3 +43,8 @@ def rev_word_3(s: str) -> str:
     :param s: Given string
     :return: Reversed string
     """
+    words = []
+    length = len(s)
+    spaces = [" "]
+
+    i = 0
