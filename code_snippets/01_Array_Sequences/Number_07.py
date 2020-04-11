@@ -34,3 +34,4 @@ def rev_word_2(s: str) -> str:
     :param s: Given string
     :return: Reversed string
     """
+    return " ".join(s.split()[::-1])
