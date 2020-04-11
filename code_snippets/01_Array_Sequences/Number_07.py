@@ -56,3 +56,7 @@ def rev_word_3(s: str) -> str:
             words.append(s[word_start: i])
         i += 1
     return " ".join(reversed(words))
+
+
+def main():
+    pass
