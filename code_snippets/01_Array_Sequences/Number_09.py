@@ -42,6 +42,13 @@ def main():
     print(f"string: 'abcde' --> output: {uni_char_1('abcde')}")
     print(f"string: 'abcdde' --> output: {uni_char_1('abcdde')}")
 
+    print("\n")
+
+    # Testing second solution
+    print(" Testing uni_char_2() function ".center(50, '*'))
+    print(f"string: 'abcde' --> output: {uni_char_2('abcde')}")
+    print(f"string: 'abcdde' --> output: {uni_char_2('abcdde')}")
+
 
 if __name__ == '__main__':
     main()
