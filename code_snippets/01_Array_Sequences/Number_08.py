@@ -44,3 +44,7 @@ def compress(s: str) -> str:
         i += 1
     r = r + s[i - 1] + str(count)
     return r
+
+
+def man():
+    pass
