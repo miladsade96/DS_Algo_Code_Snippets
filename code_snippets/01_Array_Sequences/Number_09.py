@@ -34,3 +34,7 @@ def uni_char_2(s: str) -> bool:
         else:
             chars.add(let)
     return True
+
+
+def main():
+    pass
