@@ -48,3 +48,7 @@ def compress(s: str) -> str:
 
 def man():
     pass
+
+
+if __name__ == '__main__':
+    man()
