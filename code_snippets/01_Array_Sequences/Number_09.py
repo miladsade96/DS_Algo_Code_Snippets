@@ -37,7 +37,10 @@ def uni_char_2(s: str) -> bool:
 
 
 def main():
-    pass
+    # Testing first solution
+    print(" Testing uni_char_1() function ".center(50, '*'))
+    print(f"string: 'abcde' --> output: {uni_char_1('abcde')}")
+    print(f"string: 'abcdde' --> output: {uni_char_1('abcdde')}")
 
 
 if __name__ == '__main__':
