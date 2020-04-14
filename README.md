@@ -10,3 +10,5 @@ Python Data Structures and Algorithms Code Snippets
     * [Find the missing element](/code_snippets/01_Array_Sequences/Number_05.py)
     * [Largest continuous sum](/code_snippets/01_Array_Sequences/Number_06.py)
     * [Sentence reversal](/code_snippets/01_Array_Sequences/Number_07.py)
+    * [String compression](/code_snippets/01_Array_Sequences/Number_08.py)
+    * [Unique characters in string](/code_snippets/01_Array_Sequences/Number_09.py)
