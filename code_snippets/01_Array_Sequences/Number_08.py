@@ -15,3 +15,18 @@
         characters, and at the end convert that list back into a string with
         a join statement.
 """
+
+
+def compress(s: str) -> str:
+    """
+    Implementation of the solution
+    :param s: Given string
+    :return: Returned string including counts for characters
+    """
+    r = ""
+    l = len(s)
+
+    if l == 0:
+        return ""
+    elif l == 1:
+        return s + "1"
