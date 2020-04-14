@@ -9,4 +9,9 @@
 
         The function should also be case sensitive, so that a string 'AAAaaa'
         returns 'A3a3'.
+
+    Solution:
+        Since python strings are immutable, we will need wok off of a list of
+        characters, and at the end convert that list back into a string with
+        a join statement.
 """
