@@ -30,3 +30,7 @@ def compress(s: str) -> str:
         return ""
     elif l == 1:
         return s + "1"
+
+    last = s[0]
+    count = 1
+    i = 1
