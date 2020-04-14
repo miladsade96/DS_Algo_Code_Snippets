@@ -10,3 +10,12 @@
         First: Using set data structure and built in function.
         Second : Using set data structure and our own look up function.
 """
+
+
+def uni_char_1(s: str) -> bool:
+    """
+    Implementation of first solution
+    :param s: Given string
+    :return: Either True or False
+    """
+    return len(set(s)) == len(s)
