@@ -47,7 +47,11 @@ def compress(s: str) -> str:
 
 
 def man():
-    pass
+    # Testing
+    print(f"string: 'AABBCCCDDDD' --> output --> {compress('AABBCCCDDDD')}")
+    print(f"string: 'AB' --> output --> {compress('AB')}")
+    print(f"string: 'AAaABBbCCddd' --> output --> {compress('AAaABBbCCddd')}")
+    print(f"string: 'aaaaDDcEEEf' --> output --> {compress('aaaaDDcEEEf')}")
 
 
 if __name__ == '__main__':
