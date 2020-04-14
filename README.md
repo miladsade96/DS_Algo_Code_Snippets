@@ -9,3 +9,4 @@ Python Data Structures and Algorithms Code Snippets
     * [Array pair sum](/code_snippets/01_Array_Sequences/Number_04.py)
     * [Find the missing element](/code_snippets/01_Array_Sequences/Number_05.py)
     * [Largest continuous sum](/code_snippets/01_Array_Sequences/Number_06.py)
+    * [Sentence reversal](/code_snippets/01_Array_Sequences/Number_07.py)
