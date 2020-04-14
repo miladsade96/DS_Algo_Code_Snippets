@@ -38,3 +38,7 @@ def uni_char_2(s: str) -> bool:
 
 def main():
     pass
+
+
+if __name__ == '__main__':
+    main()
