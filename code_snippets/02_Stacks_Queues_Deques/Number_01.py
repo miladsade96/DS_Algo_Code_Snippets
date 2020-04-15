@@ -39,7 +39,10 @@ class Stack(object):
 
 
 def main():
-    pass
+    # Creating a stack object
+    s = Stack()
+    # Testing isEmpty() method
+    print(f"Testing isEmpty() method: {s.isEmpty()}")
 
 
 if __name__ == '__main__':
