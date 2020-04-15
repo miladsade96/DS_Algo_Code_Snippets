@@ -46,6 +46,8 @@ def main():
     # Testing push() method
     s.push(10)
     s.push('three')
+    # Testing peek() method
+    print(f"Testing peek() method: {s.peek()}")
 
 
 if __name__ == '__main__':
