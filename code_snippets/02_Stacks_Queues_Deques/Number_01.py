@@ -43,6 +43,9 @@ def main():
     s = Stack()
     # Testing isEmpty() method
     print(f"Testing isEmpty() method: {s.isEmpty()}")
+    # Testing push() method
+    s.push(10)
+    s.push('three')
 
 
 if __name__ == '__main__':
