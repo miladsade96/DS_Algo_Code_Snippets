@@ -52,6 +52,10 @@ def main():
     s.push(True)
     # Testing size() method
     print(f"Testing size() method: {s.size()}")
+    # Testing pop() method
+    print(f"Testing pop() method: {s.pop()}")
+    print(f"Testing pop() method: {s.pop()}")
+    print(f"Testing pop() method: {s.pop()}")
 
 
 if __name__ == '__main__':
