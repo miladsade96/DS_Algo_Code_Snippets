@@ -48,6 +48,10 @@ def main():
     s.push('three')
     # Testing peek() method
     print(f"Testing peek() method: {s.peek()}")
+    # Pushing another item
+    s.push(True)
+    # Testing size() method
+    print(f"Testing size() method: {s.size()}")
 
 
 if __name__ == '__main__':
