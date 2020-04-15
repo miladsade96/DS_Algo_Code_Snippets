@@ -15,3 +15,8 @@
         size() --> Returns the number of items on the stack. It needs no para-
             -meters and returns an integer.
 """
+
+
+class Stack(object):
+    def __init__(self):
+        self.items = []
