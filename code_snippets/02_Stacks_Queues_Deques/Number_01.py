@@ -18,6 +18,7 @@
 
 
 class Stack(object):
+    """Implementation of stack data structure"""
     def __init__(self):
         self.items = []
 
