@@ -22,3 +22,5 @@ class Stack(object):
         self.items = []
     def isEmpty(self):
         return self.items == []
+    def push(self, item):
+        self.items.append(item)
