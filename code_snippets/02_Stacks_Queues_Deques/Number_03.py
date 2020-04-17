@@ -47,6 +47,9 @@ def main():
     # Creating a deque object
     d = Deque()
 
+    # Testing isEmpty method
+    print(f"d.isEmpty(): {d.isEmpty()}")
+
 
 if __name__ == '__main__':
     main()
