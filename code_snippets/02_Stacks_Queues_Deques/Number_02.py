@@ -17,4 +17,5 @@
 
 class Queue(object):
     """Implementation of queue data structure"""
-    pass
+    def __init__(self):
+        self.items = []
