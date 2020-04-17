@@ -44,7 +44,8 @@ class Deque(object):
 
 
 def main():
-    pass
+    # Creating a deque object
+    d = Deque()
 
 
 if __name__ == '__main__':
