@@ -38,3 +38,6 @@ class Deque(object):
 
     def removeRear(self):
         return self.items.pop(0)
+
+    def size(self):
+        return len(self.items)
