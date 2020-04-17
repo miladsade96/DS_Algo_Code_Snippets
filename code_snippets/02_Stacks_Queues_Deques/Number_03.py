@@ -58,6 +58,9 @@ def main():
     # Testing size method
     print(f"size of d: {d.size()}")
 
+    # Testing removeFront and removeRear methods
+    print(f"{d.removeFront()} {d.removeRear()}")
+
 
 if __name__ == '__main__':
     main()
