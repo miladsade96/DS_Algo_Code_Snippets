@@ -43,6 +43,10 @@ def main():
     # Testing isEmpty() method
     print(f"q.isEmpty(): {q.isEmpty()}")
 
+    # Testing enqueue() method:
+    q.enqueue(1)
+    q.enqueue(2)
+
 
 if __name__ == '__main__':
     main()
