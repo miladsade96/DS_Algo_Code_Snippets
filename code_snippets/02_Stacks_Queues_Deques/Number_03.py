@@ -50,6 +50,11 @@ def main():
     # Testing isEmpty method
     print(f"d.isEmpty(): {d.isEmpty()}")
 
+    # Testing addFront method
+    d.addFront("Hello")
+    # Testing addRear method
+    d.addRear("World")
+
 
 if __name__ == '__main__':
     main()
