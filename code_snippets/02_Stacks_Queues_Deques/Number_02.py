@@ -19,3 +19,6 @@ class Queue(object):
     """Implementation of queue data structure"""
     def __init__(self):
         self.items = []
+
+    def isEmpty(self):
+        return self.items == []
