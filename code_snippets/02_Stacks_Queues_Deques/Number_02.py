@@ -37,6 +37,9 @@ def main():
     # Creating a queue object
     q = Queue()
 
+    # Testing size method
+    print(f"size of q: {q.size()}")
+
 
 if __name__ == '__main__':
     main()
