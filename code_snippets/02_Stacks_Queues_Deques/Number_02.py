@@ -34,7 +34,8 @@ class Queue(object):
 
 
 def main():
-    pass
+    # Creating a queue object
+    q = Queue()
 
 
 if __name__ == '__main__':
