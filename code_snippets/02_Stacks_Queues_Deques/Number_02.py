@@ -40,6 +40,9 @@ def main():
     # Testing size method
     print(f"size of q: {q.size()}")
 
+    # Testing isEmpty() method
+    print(f"q.isEmpty(): {q.isEmpty()}")
+
 
 if __name__ == '__main__':
     main()
