@@ -47,6 +47,10 @@ def main():
     q.enqueue(1)
     q.enqueue(2)
 
+    # testing dequeue() method
+    print(f"q.dequeue(): {q.dequeue()}")
+    print(f"q.dequeue(): {q.dequeue()}")
+
 
 if __name__ == '__main__':
     main()
