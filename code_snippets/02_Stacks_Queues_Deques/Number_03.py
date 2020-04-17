@@ -32,3 +32,6 @@ class Deque(object):
 
     def addRear(self, item):
         self.items.insert(0, item)
+
+    def removeFront(self):
+        return self.items.pop()
