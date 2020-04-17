@@ -17,3 +17,8 @@
         size() --> Returns the number of items in the deque. It needs no para-
                    -meter and returns an integer
 """
+
+
+class Deque(object):
+    """Implementation of deque data structure"""
+    pass
