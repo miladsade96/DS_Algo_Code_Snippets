@@ -55,6 +55,9 @@ def main():
     # Testing addRear method
     d.addRear("World")
 
+    # Testing size method
+    print(f"size of d: {d.size()}")
+
 
 if __name__ == '__main__':
     main()
