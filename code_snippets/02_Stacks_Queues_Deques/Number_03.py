@@ -26,3 +26,6 @@ class Deque(object):
 
     def isEmpty(self):
         return self.items == []
+
+    def addFront(self, item):
+        self.items.append(item)
