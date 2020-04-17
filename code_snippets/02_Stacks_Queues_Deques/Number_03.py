@@ -35,3 +35,6 @@ class Deque(object):
 
     def removeFront(self):
         return self.items.pop()
+
+    def removeRear(self):
+        return self.items.pop(0)
