@@ -23,3 +23,6 @@ class Deque(object):
     """Implementation of deque data structure"""
     def __init__(self):
         self.items = []
+
+    def isEmpty(self):
+        return self.items == []
