@@ -13,3 +13,8 @@
         size() --> Returns the number of items in queue. It needs no parameter
                    and returns an integer.
 """
+
+
+class Queue(object):
+    """Implementation of queue data structure"""
+    pass
