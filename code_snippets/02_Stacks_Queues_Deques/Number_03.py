@@ -21,4 +21,5 @@
 
 class Deque(object):
     """Implementation of deque data structure"""
-    pass
+    def __init__(self):
+        self.items = []
