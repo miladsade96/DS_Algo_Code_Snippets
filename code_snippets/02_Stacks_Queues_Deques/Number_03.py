@@ -29,3 +29,6 @@ class Deque(object):
 
     def addFront(self, item):
         self.items.append(item)
+
+    def addRear(self, item):
+        self.items.insert(0, item)
