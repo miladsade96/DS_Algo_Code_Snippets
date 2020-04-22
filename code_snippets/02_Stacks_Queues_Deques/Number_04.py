@@ -42,3 +42,6 @@ def balance_check(s: str) -> bool:
 
     # creating matching set
     matches = {('(', ')'), ('[', ']'), ('{', '}')}
+
+    # Creating a stack using built-in list
+    stack = []
