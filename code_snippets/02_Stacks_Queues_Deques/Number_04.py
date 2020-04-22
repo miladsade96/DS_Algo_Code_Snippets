@@ -45,3 +45,14 @@ def balance_check(s: str) -> bool:
 
     # Creating a stack using built-in list
     stack = []
+
+    for paren in s:
+        if paren in openings:
+            stack.append(paren)
+        else:
+            if len(stack) == 0:
+                return False
+            last_open = stack.pop()
+            if (last_open, paren) not in matches:
+                return False
+    return len(stack) == 0
