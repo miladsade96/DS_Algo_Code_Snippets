@@ -11,3 +11,7 @@
         order reversed again is original order.
 
 """
+
+
+class TwoStackQueue(object):
+    pass
