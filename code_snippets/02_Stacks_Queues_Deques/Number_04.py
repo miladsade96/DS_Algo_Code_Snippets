@@ -56,3 +56,7 @@ def balance_check(s: str) -> bool:
             if (last_open, paren) not in matches:
                 return False
     return len(stack) == 0
+
+
+def main():
+    pass
