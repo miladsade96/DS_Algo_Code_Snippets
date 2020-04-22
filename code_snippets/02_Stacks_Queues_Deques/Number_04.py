@@ -25,3 +25,12 @@
         empty. If so, we return true, otherwise return false because there were
         some opened parenthesis that were not closed.
 """
+
+
+def balance_check(s: str) -> bool:
+    """
+    Implementation of solution
+    :param s: Given string
+    :return: function output, either True or False
+    """
+    pass
