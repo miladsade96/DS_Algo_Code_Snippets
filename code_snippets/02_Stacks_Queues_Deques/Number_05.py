@@ -17,3 +17,6 @@ class TwoStackQueue(object):
     def __init__(self):
         self.in_stack = []
         self.out_stack = []
+
+    def enqueue(self, element):
+        self.in_stack.append(element)
