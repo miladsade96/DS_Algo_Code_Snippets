@@ -12,4 +12,16 @@
         For Example:
             input --> ({}) is balanced,     output --> True
             input --> ({]) is'nt balanced,  output --> False
+
+    Solution:
+        First we will scan the string from left to right, and every time we see
+        an opening parenthesis we push it to the stack, because we want the last
+        opening parenthesis to be closed first. Then, when we see a closing par-
+        -enthesis we check whether the last opened one is the corresponding clo-
+        -sing match, by popping the element from stack. If it's a valid match,
+        then we proceed forward, if not return false. Or if the stack is empty
+        we also return false, because there is no opening parenthesis associated
+        with this closing one. At the end, we also check whether the stack is
+        empty. If so, we return true, otherwise return false because there were
+        some opened parenthesis that were not closed.
 """
