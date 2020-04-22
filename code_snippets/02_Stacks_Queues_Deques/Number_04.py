@@ -39,3 +39,6 @@ def balance_check(s: str) -> bool:
 
     # creating a set of opening brackets
     openings = set("({[")
+
+    # creating matching set
+    matches = {('(', ')'), ('[', ']'), ('{', '}')}
