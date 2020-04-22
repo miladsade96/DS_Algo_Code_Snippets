@@ -36,3 +36,6 @@ def balance_check(s: str) -> bool:
     # Edge case
     if len(s) % 2 != 0:
         return False
+
+    # creating a set of opening brackets
+    openings = set("({[")
