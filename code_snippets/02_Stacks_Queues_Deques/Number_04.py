@@ -59,7 +59,12 @@ def balance_check(s: str) -> bool:
 
 
 def main():
-    pass
+    # Testing balance_check function
+    print(f"Input: '()', Output: {balance_check('()')}")
+    print(f"Input: '({{[]}})', Output: {balance_check('({{[]}})')}")
+    print(f"Input: '({{[]}})[][()]', Output: {balance_check('({{[]}})[][()]')}")
+    print(f"Input: '({{[}})[][()]', Output: {balance_check('({{[}})[][()]')}")
+    print(f"Input: '(])', Output: {balance_check('(])')}")
 
 
 if __name__ == '__main__':
