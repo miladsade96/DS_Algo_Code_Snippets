@@ -33,4 +33,6 @@ def balance_check(s: str) -> bool:
     :param s: Given string
     :return: function output, either True or False
     """
-    pass
+    # Edge case
+    if len(s) % 2 != 0:
+        return False
