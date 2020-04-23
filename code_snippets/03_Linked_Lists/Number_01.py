@@ -23,7 +23,10 @@ class Node(object):
 
 
 def main():
-    pass
+    # Building Our Nodes
+    a = Node(1)
+    b = Node(2)
+    c = Node(3)
 
 
 if __name__ == '__main__':
