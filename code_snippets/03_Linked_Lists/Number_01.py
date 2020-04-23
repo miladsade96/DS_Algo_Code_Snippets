@@ -28,6 +28,10 @@ def main():
     b = Node(2)
     c = Node(3)
 
+    # Building linked list using nodes
+    a.next_node(b)
+    b.next_node(c)
+
 
 if __name__ == '__main__':
     main()
