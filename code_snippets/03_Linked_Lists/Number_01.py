@@ -29,8 +29,8 @@ def main():
     c = Node(3)
 
     # Building linked list using nodes
-    a.next_node(b)
-    b.next_node(c)
+    a.next_node = b
+    b.next_node = c
 
 
 if __name__ == '__main__':
