@@ -20,6 +20,8 @@ class Node(object):
     def __init__(self, value):
         self.value = value
         self.next_node = None
+    def __repr__(self):
+        return f"Node({self.value})"
 
 
 def main():
