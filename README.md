@@ -20,4 +20,6 @@ Python Data Structures and Algorithms Code Snippets
     * [Implementation of Deque](/code_snippets/02_Stacks_Queues_Deques/Number_03.py)
     * [Balanced parenthesis check](/code_snippets/02_Stacks_Queues_Deques/Number_04.py)
     * [implemening a queue using two stacks](/code_snippets/02_Stacks_Queues_Deques/Number_05.py)
+
+* [Linked Lists](code_snippets/03_Linked_Lists)
     * [Implementation of singly linked list](/code_snippets/03_Linked_Lists/Number_01.py)
