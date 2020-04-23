@@ -43,6 +43,9 @@ def main():
     print(f"a.next_node --> {a.next_node}")
     print(f"b.next_node --> {b.next_node}")
     print(f"c.next_node --> {c.next_node}")
+    # Testing next_node.value attribute
+    print(f"a.next_node.value --> {a.next_node.value}")
+    print(f"b.next_node.value --> {b.next_node.value}")
 
 
 if __name__ == '__main__':
