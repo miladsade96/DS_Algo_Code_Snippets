@@ -7,6 +7,12 @@
               to do the same thing.
         (2) - Linked lists can continue to expand without having to
               specify their size ahead of time.
+
+    Cons:
+        (1) - To access an element in a linked list, you need to take
+              O(k) to go from the head of the list to the k-th element.
+              In contrast, arrays have constant time operations to access
+              element in an array.
 """
 
 
