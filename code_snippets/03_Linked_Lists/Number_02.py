@@ -8,6 +8,8 @@ class DoublyLinkedListNode(object):
         self.value = value
         self.next_node = None
         self.prev_node = None
+    def __repr__(self):
+        return f"Node{self.value}"
 
 
 def main():
