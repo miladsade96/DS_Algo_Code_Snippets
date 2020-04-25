@@ -13,7 +13,10 @@ class DoublyLinkedListNode(object):
 
 
 def main():
-    pass
+    # Building our Nodes
+    a = DoublyLinkedListNode(1)
+    b = DoublyLinkedListNode(2)
+    c = DoublyLinkedListNode(3)
 
 
 if __name__ == '__main__':
