@@ -40,6 +40,9 @@ def main():
     # Testing next_node value
     print(f"a.next_node.value --> {a.next_node.value}")
     print(f"b.next_node.value --> {b.next_node.value}")
+    # Testing prev_node value
+    print(f"b.prev_node.value --> {b.prev_node.value}")
+    print(f"c.prev_node.value --> {c.prev_node.value}")
 
 
 if __name__ == '__main__':
