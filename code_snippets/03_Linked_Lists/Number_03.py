@@ -24,3 +24,12 @@ def cycle_check(node: Node) -> bool:
     :param node: Given Node object that we want to check
     :return: Either True or False
     """
+    # defining markers
+    marker_1 = node
+    marker_2 = node
+    while marker_2 is not None and marker_2.next_node is not None:
+        marker_1 = marker_1.next_node
+        marker_2 = marker_2.next_node.next_node
+        if marker_2 == marker_1:
+            return True
+    return False
