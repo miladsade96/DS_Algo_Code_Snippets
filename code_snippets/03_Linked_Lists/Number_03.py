@@ -19,4 +19,8 @@ from .Number_01 import Node
 
 
 def cycle_check(node: Node) -> bool:
-    pass
+    """
+    Implementation of the algorithm(solution)
+    :param node: Given Node object that we want to check
+    :return: Either True or False
+    """
