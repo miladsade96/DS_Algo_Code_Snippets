@@ -18,6 +18,12 @@ def main():
     b = DoublyLinkedListNode(2)
     c = DoublyLinkedListNode(3)
 
+    # Building doubly linked list using nodes
+    a.next_node = b
+    b.prev_node = a
+    b.next_node = c
+    c.prev_node = b
+
 
 if __name__ == '__main__':
     main()
