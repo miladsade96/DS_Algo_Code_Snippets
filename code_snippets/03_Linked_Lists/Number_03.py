@@ -48,3 +48,13 @@ class TestCycle(TestCase):
         b.next_node = c
         c.next_node = a  # cycle is here
         self.assertTrue(cycle_check(a))
+
+    def test_cycle_does_not_exist(self):
+        # Building nodes
+        a = Node(1)
+        b = Node(2)
+        c = Node(3)
+        # Building singly linked list including cycle
+        a.next_node = b
+        b.next_node = c
+        self.assertFalse(cycle_check(a))
