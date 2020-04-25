@@ -8,3 +8,7 @@ class DoublyLinkedListNode(object):
         self.value = value
         self.next_node = None
         self.prev_node = None
+
+
+def main():
+    pass
