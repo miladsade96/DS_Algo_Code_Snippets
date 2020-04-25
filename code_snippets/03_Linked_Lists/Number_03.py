@@ -58,3 +58,7 @@ class TestCycle(TestCase):
         a.next_node = b
         b.next_node = c
         self.assertFalse(cycle_check(a))
+
+
+if __name__ == '__main__':
+    main()
