@@ -24,6 +24,12 @@ def main():
     b.next_node = c
     c.prev_node = b
 
+    # Testing doubly linked list
+    # Testing value attribute
+    print(f"a.value --> {a.value}")
+    print(f"b.value --> {b.value}")
+    print(f"c.value --> {c.value}")
+
 
 if __name__ == '__main__':
     main()
