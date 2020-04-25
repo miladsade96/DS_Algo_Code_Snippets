@@ -34,3 +34,10 @@ def cycle_check(node: Node) -> bool:
         if marker_2 == marker_1:
             return True
     return False
+
+
+class TestCycle(TestCase):
+    # Building nodes
+    a = Node(1)
+    b = Node(2)
+    c = Node(3)
