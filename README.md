@@ -24,3 +24,4 @@ Python Data Structures and Algorithms Code Snippets
 * [Linked Lists](code_snippets/03_Linked_Lists)
     * [Implementation of singly linked list](/code_snippets/03_Linked_Lists/Number_01.py)
     * [Implementation of doubly linked list](/code_snippets/03_Linked_Lists/Number_02.py)
+    * [Singly linked list cycle check](/code_snippets/03_Linked_Lists/Number_03.py)
