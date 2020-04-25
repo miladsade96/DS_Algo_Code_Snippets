@@ -41,3 +41,7 @@ class TestCycle(TestCase):
     a = Node(1)
     b = Node(2)
     c = Node(3)
+    # Building singly linked list including cycle
+    a.next_node = b
+    b.next_node = c
+    c.next_node = a     # cycle is here
