@@ -14,3 +14,5 @@
         the list and traverse through the linked list. However the second marker,
         marker_2, will move two nodes ahead from every one node that marker_1 moves.
 """
+
+from .Number_01 import Node
