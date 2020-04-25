@@ -16,6 +16,7 @@
 """
 
 from .Number_01 import Node
+from unittest import TestCase
 
 
 def cycle_check(node: Node) -> bool:
