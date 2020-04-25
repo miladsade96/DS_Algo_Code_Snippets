@@ -16,3 +16,7 @@
 """
 
 from .Number_01 import Node
+
+
+def cycle_check(node: Node) -> bool:
+    pass
