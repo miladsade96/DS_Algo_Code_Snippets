@@ -63,14 +63,21 @@ def nth_to_last_node(n: int, head: Node) -> Node:
 
 
 class TestNthNode(TestCase):
-    # creating sample instances for testing
-    a = Node(1)
-    b = Node(2)
-    c = Node(3)
-    d = Node(4)
-    e = Node(5)
-    # creating linked list
-    a.next_node = b
-    b.next_node = c
-    c.next_node = d
-    d.next_node = e
+
+    def test_nth_node(self):
+        # creating sample instances for testing
+        a = Node(1)
+        b = Node(2)
+        c = Node(3)
+        d = Node(4)
+        e = Node(5)
+        # creating linked list
+        a.next_node = b
+        b.next_node = c
+        c.next_node = d
+        d.next_node = e
+        self.assertEqual(nth_to_last_node(2, a), d)
+
+
+if __name__ == '__main__':
+    main()
