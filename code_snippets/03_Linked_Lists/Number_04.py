@@ -17,3 +17,12 @@
         pass head to tail of our input list, we will point each node's next
         pointer to the previous element.
 """
+
+
+class Node(object):
+    def __init__(self, value):
+        self.value = value
+        self.next_node = None
+
+    def __repr__(self):
+        return f"Node({self.value})"
