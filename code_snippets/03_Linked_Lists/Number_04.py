@@ -47,3 +47,7 @@ def reverse(head: Node) -> Node:
 
 def main():
     pass
+
+
+if __name__ == '__main__':
+    main()
