@@ -60,3 +60,17 @@ def nth_to_last_node(n: int, head: Node) -> Node:
         left_pointer = left_pointer.next_node
         right_pointer = right_pointer.next_node
     return left_pointer
+
+
+class TestNthNode(TestCase):
+    # creating sample instances for testing
+    a = Node(1)
+    b = Node(2)
+    c = Node(3)
+    d = Node(4)
+    e = Node(5)
+    # creating linked list
+    a.next_node = b
+    b.next_node = c
+    c.next_node = d
+    d.next_node = e
