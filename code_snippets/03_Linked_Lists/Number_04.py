@@ -26,3 +26,11 @@ class Node(object):
 
     def __repr__(self):
         return f"Node({self.value})"
+
+
+def reverse(head: Node) -> Node:
+    """
+    This function reverses the linked list
+    :param head: first node of the linked list
+    :return: The first node of the reversed linked list
+    """
