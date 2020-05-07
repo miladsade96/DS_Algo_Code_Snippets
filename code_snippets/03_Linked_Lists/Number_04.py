@@ -43,3 +43,7 @@ def reverse(head: Node) -> Node:
         previous = current
         current = nextNode
     return previous
+
+
+def main():
+    pass
