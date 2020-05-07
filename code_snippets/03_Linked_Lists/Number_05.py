@@ -47,3 +47,9 @@ def nth_to_last_node(n: int, head: Node) -> Node:
     """
     left_pointer = head
     right_pointer = head
+
+    # checking the edge case
+    for i in range(n - 1):
+        if not right_pointer.next_node:
+            raise LookupError("n is larger than the linked list")
+        right_pointer = right_pointer.next_node
