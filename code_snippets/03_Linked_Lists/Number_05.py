@@ -53,3 +53,8 @@ def nth_to_last_node(n: int, head: Node) -> Node:
         if not right_pointer.next_node:
             raise LookupError("n is larger than the linked list")
         right_pointer = right_pointer.next_node
+
+    while right_pointer.next_node:
+        left_pointer = left_pointer.next_node
+        right_pointer = right_pointer.next_node
+    return left_pointer
