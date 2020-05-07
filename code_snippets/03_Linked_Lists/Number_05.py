@@ -45,3 +45,5 @@ def nth_to_last_node(n: int, head: Node) -> Node:
     :param head: head node of linked list
     :return: target node
     """
+    left_pointer = head
+    right_pointer = head
