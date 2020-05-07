@@ -36,3 +36,12 @@ class Node(object):
 
     def __repr__(self):
         return f"Node({self.value})"
+
+
+def nth_to_last_node(n: int, head: Node) -> Node:
+    """
+    Implementation of the solution
+    :param n: nth to the last node
+    :param head: head node of linked list
+    :return: target node
+    """
