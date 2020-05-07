@@ -34,3 +34,16 @@ def reverse(head: Node) -> Node:
     :param head: first node of the linked list
     :return: The first node of the reversed linked list
     """
+    current = head
+    previous = None
+    nextNode = None
+    while current:
+        nextNode = current.next_node
+        current.next_node = previous
+        previous = current
+        current = nextNode
+    return previous
+
+
+def main():
+    pass
