@@ -61,6 +61,13 @@ def main():
     print(f"b.next_node.value: {b.next_node.value}")
     print(f"c.next_node.value: {c.next_node.value}")
 
+    # reversing the linked list
+    reverse(a)
+
+    print(f"d.next_node.value: {d.next_node.value}")
+    print(f"c.next_node.value: {c.next_node.value}")
+    print(f"b.next_node.value: {b.next_node.value}")
+
 
 if __name__ == '__main__':
     main()
