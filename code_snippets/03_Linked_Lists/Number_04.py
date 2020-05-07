@@ -57,6 +57,10 @@ def main():
     b.next_node = c
     c.next_node = d
 
+    print(f"a.next_node.value: {a.next_node.value}")
+    print(f"b.next_node.value: {b.next_node.value}")
+    print(f"c.next_node.value: {c.next_node.value}")
+
 
 if __name__ == '__main__':
     main()
