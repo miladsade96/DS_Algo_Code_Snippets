@@ -52,6 +52,11 @@ def main():
     c = Node(3)
     d = Node(4)
 
+    # setting up order
+    a.next_node = b
+    b.next_node = c
+    c.next_node = d
+
 
 if __name__ == '__main__':
     main()
