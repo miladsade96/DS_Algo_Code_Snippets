@@ -27,3 +27,12 @@
             * Once the right point has hit the tail, we know that the left
                 point is at the target.
 """
+
+
+class Node(object):
+    def __init__(self, value):
+        self.value = value
+        self.next_node = None
+
+    def __repr__(self):
+        return f"Node({self.value})"
