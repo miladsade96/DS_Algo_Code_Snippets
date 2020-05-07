@@ -26,3 +26,4 @@ Python Data Structures and Algorithms Code Snippets
     * [Implementation of doubly linked list](/code_snippets/03_Linked_Lists/Number_02.py)
     * [Singly linked list cycle check](/code_snippets/03_Linked_Lists/Number_03.py)
     * [Linked list reversal](/code_snippets/03_Linked_Lists/Number_04.py)
+    * [Linked List Nth to Last Node](/code_snippets/03_Linked_Lists/Number_05.py)
