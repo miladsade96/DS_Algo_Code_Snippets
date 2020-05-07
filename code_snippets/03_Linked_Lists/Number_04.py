@@ -46,7 +46,11 @@ def reverse(head: Node) -> Node:
 
 
 def main():
-    pass
+    # create a list of 4 nodes
+    a = Node(1)
+    b = Node(2)
+    c = Node(3)
+    d = Node(4)
 
 
 if __name__ == '__main__':
