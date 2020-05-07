@@ -28,6 +28,8 @@
                 point is at the target.
 """
 
+from unittest import TestCase, main
+
 
 class Node(object):
     def __init__(self, value):
