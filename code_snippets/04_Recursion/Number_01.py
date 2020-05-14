@@ -10,6 +10,6 @@
 def factorial(n: int) -> int:
     """
     Factorial function with recursion
-    :param n: given number that we gonna find its factorial
+    :param n: given number that we are gonna find its factorial
     :return: factorial value
     """
