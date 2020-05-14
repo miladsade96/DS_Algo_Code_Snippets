@@ -9,3 +9,11 @@
     Hint:
         In this case, we have: n + (n - 1) + (n - 2) + ... + 0
 """
+
+
+def rec_sum(n: int) -> int:
+    """
+    Recursive sum
+    :param n: given number that we're gonna sum from 0 to it
+    :return: result of sum from 0 ro n
+    """
