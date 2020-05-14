@@ -18,3 +18,8 @@ def sum_func(n: int) -> int:
     :param n: given number that w're gonna sum its all individual digits
     :return: result of summation
     """
+    # Base case
+    if n == 0:
+        return 0
+    else:
+        return n % 10 + sum_func(n // 10)
