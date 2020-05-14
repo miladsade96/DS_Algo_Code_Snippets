@@ -30,3 +30,4 @@ Python Data Structures and Algorithms Code Snippets
 
 * [Recursion](code_snippets/04_Recursion)
     * [Implementation of factorial function using recursion](/code_snippets/04_Recursion/Number_01.py)
+    * [Cumulative sum of 0 to given integer using recursion](/code_snippets/04_Recursion/Number_02.py)
