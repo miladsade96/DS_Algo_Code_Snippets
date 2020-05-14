@@ -17,3 +17,8 @@ def rec_sum(n: int) -> int:
     :param n: given number that we're gonna sum from 0 to it
     :return: result of sum from 0 ro n
     """
+    # Base case
+    if n == 0:
+        return 0
+    else:
+        return n + rec_sum(n - 1)
