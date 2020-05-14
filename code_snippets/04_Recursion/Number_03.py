@@ -10,3 +10,11 @@
         You will need to use modulo --> 4321 % 10 = 1
         and floor division operator --> 4321 // 10 = 432
 """
+
+
+def sum_func(n: int) -> int:
+    """
+    Implementation of solution
+    :param n: given number that w're gonna sum its all individual digits
+    :return: result of summation
+    """
