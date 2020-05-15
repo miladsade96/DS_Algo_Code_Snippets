@@ -33,3 +33,7 @@ def word_split(phrase: AnyStr, list_of_words: List, output=None) -> List:
             return word_split(phrase[len(word):], list_of_words, output)
     # returning final output
     return output
+
+
+def main():
+    pass
