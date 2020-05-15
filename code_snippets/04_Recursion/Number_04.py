@@ -52,3 +52,7 @@ def main():
     # phrase --> "doknowyoume"
     # list_of_words --> ["know", "me"]
     print(word_split("doknowyoume", ["do", "know"]))
+
+
+if __name__ == '__main__':
+    main()
