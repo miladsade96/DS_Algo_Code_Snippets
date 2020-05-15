@@ -42,3 +42,9 @@ def main():
     # phrase --> "dogloveijohn"
     # list_of_words --> ["dogs", "love", "i", "john"]
     print(word_split("dogsloveijohn", ["dogs", "i", "john", "love"]))
+
+    # Test_02
+    # phrase --> "doknowyoume"
+    # list_of_words --> ["know", "me"]
+    print(word_split("doknowyoume", ["know", "me"]))
+
