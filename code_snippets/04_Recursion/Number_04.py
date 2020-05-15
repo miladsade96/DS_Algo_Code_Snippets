@@ -18,3 +18,18 @@ def word_split(phrase: AnyStr, list_of_words: List, output=None) -> List:
     :param output: output parameter to initiate in every recursion
     :return: a list of words
     """
+    # check to see any output has been initiated
+    if output is None:
+        output = []
+    # for every word in the list
+    for word in list_of_words:
+        # if the current phrase begins with the word,
+        # we have a split point
+        if phrase.startswith(word):
+            # add the word to the output
+            output.append(word)
+            # recursively call the split function to the remaining
+            # portion of the string
+            return word_split(phrase[len(word):], list_of_words, output)
+    # returning final output
+    return output
