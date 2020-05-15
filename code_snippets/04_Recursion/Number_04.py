@@ -8,3 +8,13 @@
 """
 # importing relevant libraries
 from typing import List, AnyStr
+
+
+def word_split(phrase: AnyStr, list_of_words: List, output=None) -> List:
+    """
+    Implementation of solution
+    :param phrase: given string
+    :param list_of_words: list containing the words
+    :param output: output parameter to initiate in every recursion
+    :return: a list of words
+    """
