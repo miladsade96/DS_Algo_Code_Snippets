@@ -36,4 +36,9 @@ def word_split(phrase: AnyStr, list_of_words: List, output=None) -> List:
 
 
 def main():
-    pass
+    # Testing
+
+    # Test_01
+    # phrase --> "dogloveijohn"
+    # list_of_words --> ["dogs", "love", "i", "john"]
+    print(word_split("dogsloveijohn", ["dogs", "i", "john", "love"]))
