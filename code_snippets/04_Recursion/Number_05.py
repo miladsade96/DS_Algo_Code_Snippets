@@ -26,3 +26,8 @@ def reverse_str(s: str) -> str:
     :param s: given string
     :return: reversed string
     """
+    # Base case
+    if len(s) <= 1:
+        return s
+    else:
+        return reverse_str(s[1:]) + s[0]
