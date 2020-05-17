@@ -41,3 +41,7 @@ class TestReverseStr(TestCase):
         self.assertEqual(reverse_str("ab12c"), "c21ba")
         self.assertEqual(reverse_str("PythonIsAmazing"),
                          "gnizamAsInohtyP")
+
+
+if __name__ == '__main__':
+    main()
