@@ -16,3 +16,11 @@
         to 1. During the recursive case we grab the first letter and
         add it on the recursive call.
 """
+
+
+def reverse_str(s: str) -> str:
+    """
+    Reverse the string using recursion
+    :param s: given string
+    :return: reversed string
+    """
