@@ -31,3 +31,13 @@ def reverse_str(s: str) -> str:
         return s
     else:
         return reverse_str(s[1:]) + s[0]
+
+
+class TestReverseStr(TestCase):
+    def test_reverse_str(self):
+        self.assertEqual(reverse_str("abc"), "cba")
+        self.assertEqual(reverse_str("abc d"), "d cba")
+        self.assertEqual(reverse_str("Hello"), "olleH")
+        self.assertEqual(reverse_str("ab12c"), "c21ba")
+        self.assertEqual(reverse_str("PythonIsAmazing"),
+                         "gnizamAsInohtyP")
