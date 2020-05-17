@@ -33,3 +33,4 @@ Python Data Structures and Algorithms Code Snippets
     * [Cumulative sum of 0 to given integer using recursion](/code_snippets/04_Recursion/Number_02.py)
     * [Sum of all individual digits in an integer](/code_snippets/04_Recursion/Number_03.py)
     * [Word split using recursion](/code_snippets/04_Recursion/Number_04.py)
+    * [Reverse a string using recursion](/code_snippets/04_Recursion/Number_05.py)
