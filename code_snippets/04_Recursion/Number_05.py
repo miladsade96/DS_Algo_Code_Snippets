@@ -17,6 +17,8 @@
         add it on the recursive call.
 """
 
+from unittest import TestCase, main
+
 
 def reverse_str(s: str) -> str:
     """
