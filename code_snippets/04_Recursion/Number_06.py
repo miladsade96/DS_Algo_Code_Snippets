@@ -35,3 +35,7 @@ def permute(s: str) -> list:
     :param s: Given string
     :return: List of permutations
     """
+    output = []
+    # Base Case
+    if len(s) == 1:
+        output = [s]
