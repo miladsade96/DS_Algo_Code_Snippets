@@ -43,7 +43,7 @@ def permute(s: str) -> list:
         # for every letter in string
         for i, lett in enumerate(s):
             # for every permutation resulting fro step 2, 3
-            for perm in permute(s[:i] + s[i + 1:])
+            for perm in permute(s[:i] + s[i + 1:]):
                 # add it to output
                 output += [lett + perm]
     return output
