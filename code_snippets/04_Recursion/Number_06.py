@@ -47,3 +47,11 @@ def permute(s: str) -> list:
                 # add it to output
                 output += [lett + perm]
     return output
+
+
+class TestPermute(TestCase):
+    def test_permute(self):
+        self.assertEqual(permute("abc"), ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'])
+        self.assertEqual(permute("a"), ["a"])
+        self.assertEqual(permute("xxx"), ["xxx", "xxx", "xxx", "xxx", "xxx", "xxx"])
+        self.assertEqual(permute("Ab"), ["Ab", "bA"])
