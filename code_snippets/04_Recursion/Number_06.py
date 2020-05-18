@@ -55,3 +55,7 @@ class TestPermute(TestCase):
         self.assertEqual(permute("a"), ["a"])
         self.assertEqual(permute("xxx"), ["xxx", "xxx", "xxx", "xxx", "xxx", "xxx"])
         self.assertEqual(permute("Ab"), ["Ab", "bA"])
+
+
+if __name__ == '__main__':
+    main()
