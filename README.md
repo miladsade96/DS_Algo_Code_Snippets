@@ -34,3 +34,4 @@ Python Data Structures and Algorithms Code Snippets
     * [Sum of all individual digits in an integer](/code_snippets/04_Recursion/Number_03.py)
     * [Word split using recursion](/code_snippets/04_Recursion/Number_04.py)
     * [Reverse a string using recursion](/code_snippets/04_Recursion/Number_05.py)
+    * [String permutation using recursion](/code_snippets/04_Recursion/Number_06.py)
