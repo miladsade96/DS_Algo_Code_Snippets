@@ -27,3 +27,11 @@
 
 # import relevant libraries
 from unittest import TestCase, main
+
+
+def permute(s: str) -> list:
+    """
+    Implementation of the solution
+    :param s: Given string
+    :return: List of permutations
+    """
