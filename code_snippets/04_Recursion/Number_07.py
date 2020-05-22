@@ -22,3 +22,6 @@ def recursive_fib(n: int) -> int:
     # Base case
     if n == 0 or n == 1:
         return n
+    # recursive part
+    else:
+        return recursive_fib(n - 1) + recursive_fib(n - 2)
