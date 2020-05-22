@@ -8,6 +8,9 @@
     Note: Your function should accept a number n and return the nth
           number of the fibonacci sequence.
 """
+# importing relevant libraries
+import pytest
+from functools import lru_cache
 
 
 def recursive_fib(n: int) -> int:
