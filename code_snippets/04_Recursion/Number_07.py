@@ -9,9 +9,6 @@
           number of the fibonacci sequence.
 """
 
-# import relevant libraries
-from unittest import TestCase, main
-
 
 def recursive_fib(n: int) -> int:
     """
@@ -42,9 +39,8 @@ def iterative_fib(n: int) -> int:
 
 
 # Dynamically
-# Instantiate cache information
-n = 10
-cache = [None] * (n + 1)
+# cache information
+cache = {}
 
 
 def dynamic_fib(num: int) -> int:
@@ -53,20 +49,3 @@ def dynamic_fib(num: int) -> int:
     :param num: Given integer number
     :return: nth number of fibonacci sequence
     """
-    # Base case
-    if num == 0 or num == 1:
-        return n
-    # checking cache information
-    if cache[num] is not None:
-        return cache[num]
-    # calculating fibonacci sequence num
-    cache[num] = dynamic_fib(num - 1) + dynamic_fib(num - 2)
-    return cache[num]
-
-
-class TestFibonacciAlgorithm(TestCase):
-    def test_recursive_fib(self):
-        self.assertEqual(recursive_fib(1), 1)
-        self.assertEqual(recursive_fib(2), 1)
-        self.assertEqual(recursive_fib(10), 55)
-        self.assertEqual(recursive_fib(40), 102334155)
