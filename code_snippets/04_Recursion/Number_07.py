@@ -45,3 +45,12 @@ def iterative_fib(n: int) -> int:
 # Instantiate cache information
 n = 10
 cache = [None] * (n + 1)
+
+
+def dynamic_fib(num: int) -> int:
+    """
+    Implementation of fibonacci sequence using dynamic programming
+    :param num: Given integer number
+    :return: nth number of fibonacci sequence
+    """
+    pass
