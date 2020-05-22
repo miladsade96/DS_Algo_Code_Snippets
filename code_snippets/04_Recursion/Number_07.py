@@ -62,3 +62,11 @@ def dynamic_fib(num: int) -> int:
     # calculating fibonacci sequence num
     cache[num] = dynamic_fib(num - 1) + dynamic_fib(num - 2)
     return cache[num]
+
+
+class TestFibonacciAlgorithm(TestCase):
+    def test_recursive_fib(self):
+        self.assertEqual(recursive_fib(1), 1)
+        self.assertEqual(recursive_fib(2), 1)
+        self.assertEqual(recursive_fib(10), 55)
+        self.assertEqual(recursive_fib(40), 102334155)
