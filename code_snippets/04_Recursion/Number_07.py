@@ -70,3 +70,18 @@ parameters = [(1, 1), (2, 1), (10, 55),
               (100, 354224848179261915075),
               (200, 280571172992510140037611932413038677189525),
               (300, 222232244629420445529739893461909967206666939096499764990979600)]
+
+
+@pytest.mark.parametrize("input, expected", parameters)
+def test_recursive_fib(input, expected):
+    assert recursive_fib(input) == expected
+
+
+@pytest.mark.parametrize("input, expected", parameters)
+def test_iterable_fib(input, expected):
+    assert iterative_fib(input) == expected
+
+
+@pytest.mark.parametrize("input, expected", parameters)
+def test_dynamic_fib(input, expected):
+    assert dynamic_fib(input) == expected
