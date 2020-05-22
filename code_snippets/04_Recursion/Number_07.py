@@ -11,3 +11,12 @@
 
 # import relevant libraries
 from unittest import TestCase, main
+
+
+def recursive_fib(n: int) -> int:
+    """
+    Implementation of fibonacci sequence using recursion
+    :param n: given integer number
+    :return: nth number of fibonacci sequence
+    """
+    pass
