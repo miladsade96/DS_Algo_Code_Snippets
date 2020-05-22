@@ -25,3 +25,12 @@ def recursive_fib(n: int) -> int:
     # recursive part
     else:
         return recursive_fib(n - 1) + recursive_fib(n - 2)
+
+
+def iterative_fib(n: int) -> int:
+    """
+    Implementation of fibonacci sequence using iteration
+    :param n: Given integer number
+    :return: nth number of fibonacci sequence
+    """
+    pass
