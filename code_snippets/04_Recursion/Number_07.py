@@ -19,4 +19,6 @@ def recursive_fib(n: int) -> int:
     :param n: given integer number
     :return: nth number of fibonacci sequence
     """
-    pass
+    # Base case
+    if n == 0 or n == 1:
+        return n
