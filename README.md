@@ -35,3 +35,4 @@ Python Data Structures and Algorithms Code Snippets
     * [Word split using recursion](/code_snippets/04_Recursion/Number_04.py)
     * [Reverse a string using recursion](/code_snippets/04_Recursion/Number_05.py)
     * [String permutation using recursion](/code_snippets/04_Recursion/Number_06.py)
+    * [Fibonacci sequence implemented in three different ways](/code_snippets/04_Recursion/Number_07.py)
