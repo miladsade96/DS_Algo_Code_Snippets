@@ -85,3 +85,6 @@ def test_iterable_fib(input, expected):
 @pytest.mark.parametrize("input, expected", parameters)
 def test_dynamic_fib(input, expected):
     assert dynamic_fib(input) == expected
+
+# Note: Use command below to run the tests in the terminal:
+# $ pytest -v Number_07.py
