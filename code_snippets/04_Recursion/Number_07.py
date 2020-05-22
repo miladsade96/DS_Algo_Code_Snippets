@@ -49,3 +49,14 @@ def dynamic_fib(num: int) -> int:
     :param num: Given integer number
     :return: nth number of fibonacci sequence
     """
+    # checking cache
+    if num in cache:
+        return cache[num]
+
+    # Base case
+    if num == 0 or num == 1:
+        return num
+    else:
+        value = dynamic_fib(num - 1) + dynamic_fib(num - 2)
+    cache[num] = value
+    return value
