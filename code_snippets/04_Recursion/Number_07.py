@@ -53,4 +53,6 @@ def dynamic_fib(num: int) -> int:
     :param num: Given integer number
     :return: nth number of fibonacci sequence
     """
-    pass
+    # Base case
+    if num == 0 or num == 1:
+        return n
