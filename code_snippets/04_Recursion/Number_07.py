@@ -56,3 +56,9 @@ def dynamic_fib(num: int) -> int:
     # Base case
     if num == 0 or num == 1:
         return n
+    # checking cache information
+    if cache[num] is not None:
+        return cache[num]
+    # calculating fibonacci sequence num
+    cache[num] = dynamic_fib(num - 1) + dynamic_fib(num - 2)
+    return cache[num]
