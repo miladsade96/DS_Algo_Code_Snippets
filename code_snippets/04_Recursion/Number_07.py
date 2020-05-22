@@ -39,3 +39,9 @@ def iterative_fib(n: int) -> int:
     for i in range(n):
         a, b = b, a + b
     return a
+
+
+# Dynamically
+# Instantiate cache information
+n = 10
+cache = [None] * (n + 1)
