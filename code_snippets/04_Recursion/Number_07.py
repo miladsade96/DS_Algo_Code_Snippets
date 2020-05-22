@@ -33,4 +33,9 @@ def iterative_fib(n: int) -> int:
     :param n: Given integer number
     :return: nth number of fibonacci sequence
     """
-    pass
+    # start point
+    a = 0
+    b = 1
+    for i in range(n):
+        a, b = b, a + b
+    return a
