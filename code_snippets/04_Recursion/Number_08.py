@@ -82,3 +82,8 @@ parameters = [
     (23, (1, 5, 10, 25), 5),
     (74, (1, 5, 10, 25), 8)
 ]
+
+
+@pytest.mark.parametrize("target, coins, expected", parameters)
+def test_recursive_coin(target, coins, expected):
+    assert recursive_coin(target, coins) == expected
