@@ -30,3 +30,17 @@ def recursive_coin(target: int, coins: tuple) -> int:
     :param coins: list of all available coins
     :return: minimum number of coins
     """
+    # default to target value
+    minimum_coins = target
+
+    # Base case - checks to se if we have a single coin match
+    if target in coins:
+        return 1
+    else:
+        # for every coin value that is <= than target
+        for i in [c for c in coins if c <= target]:
+            num_coins = 1 + recursive_coin(target - i, coins)
+            # resetting the minimum
+            if num_coins < minimum_coins:
+                minimum_coins = num_coins
+    return minimum_coins
