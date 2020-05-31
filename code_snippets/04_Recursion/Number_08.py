@@ -20,3 +20,13 @@
 # importing relevant libraries
 import pytest
 from functools import lru_cache
+
+
+@lru_cache(maxsize=1024)
+def recursive_coin(target: int, coins: tuple) -> int:
+    """
+    Implementation of recursive solution
+    :param target: target value
+    :param coins: list of all available coins
+    :return: minimum number of coins
+    """
