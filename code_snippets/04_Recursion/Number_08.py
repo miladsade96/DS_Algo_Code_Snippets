@@ -92,3 +92,9 @@ def test_recursive_coin(target, coins, expected):
 @pytest.mark.parametrize("target, coins, expected", parameters)
 def test_dynamic_coin(target, coins, expected):
     assert dynamic_coin(target, coins, known_results=[0] * (target + 1)) == expected
+
+
+# Note: Use command below to run the tests in the terminal:
+# $ pytest -v Number_08.py
+# If you want to know how important dynamic programming is, comment lru_cache
+# which is located in line number 25 and then run tests once again.
