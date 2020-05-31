@@ -54,3 +54,10 @@ def dynamic_coin(target: int, coins: tuple, known_results: list) -> int:
     :param known_results: list of known results as cache memory
     :return: minimum number of coins
     """
+    # default output to target
+    minimum_coins = target
+
+    # Base case
+    if target in coins:
+        known_results[target] = 1
+        return 1
