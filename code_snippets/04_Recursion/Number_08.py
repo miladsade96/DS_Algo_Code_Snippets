@@ -65,3 +65,13 @@ def dynamic_coin(target: int, coins: tuple, known_results: list) -> int:
     # return a known result if it happens to be greater than 1
     elif known_results[target] > 0:
         return known_results[target]
+    else:
+        # for every coin value that i <= than target
+        for i in [c for c in coins if c <= target]:
+            num_coins = 1 + dynamic_coin(target - i, coins, known_results)
+            # resetting the minimum
+            if num_coins < minimum_coins:
+                minimum_coins = num_coins
+                # reset the known result
+                known_results[target] = minimum_coins
+    return minimum_coins
