@@ -16,3 +16,7 @@
                 4. 10
             With 1 coin being the minimum amount.
 """
+
+# importing relevant libraries
+import pytest
+from functools import lru_cache
