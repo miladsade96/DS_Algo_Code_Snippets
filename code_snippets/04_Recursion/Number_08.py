@@ -75,3 +75,10 @@ def dynamic_coin(target: int, coins: tuple, known_results: list) -> int:
                 # reset the known result
                 known_results[target] = minimum_coins
     return minimum_coins
+
+
+parameters = [
+    (45, (1, 5, 10, 25), 3),
+    (23, (1, 5, 10, 25), 5),
+    (74, (1, 5, 10, 25), 8)
+]
