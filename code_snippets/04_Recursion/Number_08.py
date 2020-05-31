@@ -44,3 +44,13 @@ def recursive_coin(target: int, coins: tuple) -> int:
             if num_coins < minimum_coins:
                 minimum_coins = num_coins
     return minimum_coins
+
+
+def dynamic_coin(target: int, coins: tuple, known_results: list) -> int:
+    """
+    Implementation of dynamic solution
+    :param target: target value
+    :param coins: list of all available coins
+    :param known_results: list of known results as cache memory
+    :return: minimum number of coins
+    """
