@@ -61,3 +61,7 @@ def dynamic_coin(target: int, coins: tuple, known_results: list) -> int:
     if target in coins:
         known_results[target] = 1
         return 1
+
+    # return a known result if it happens to be greater than 1
+    elif known_results[target] > 0:
+        return known_results[target]
