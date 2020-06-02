@@ -40,3 +40,11 @@ class BinaryTree(object):
 
     def get_root_val(self):
         return self.key
+
+
+class TestBinaryTree(unittest.TestCase):
+    def setUp(self) -> None:
+        self.r = BinaryTree("a")
+        self.r.insert_left("b")
+        self.r.insert_right("c")
+        self.r.get_right_child().set_root_val("z")
