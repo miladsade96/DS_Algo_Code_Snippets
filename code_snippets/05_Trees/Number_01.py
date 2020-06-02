@@ -6,4 +6,7 @@
 
 class BinaryTree(object):
     """Implementation of binary tree using nodes and references"""
-    pass
+    def __init__(self, rootObject):
+        self.key = rootObject
+        self.leftChild = None
+        self.rightChild = None
