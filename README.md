@@ -37,3 +37,6 @@ Python Data Structures and Algorithms Code Snippets
     * [String permutation using recursion](/code_snippets/04_Recursion/Number_06.py)
     * [Fibonacci sequence implemented in three different ways](/code_snippets/04_Recursion/Number_07.py)
     * [Coin change problem implemented in two different ways](/code_snippets/04_Recursion/Number_08.py)
+    
+* [Trees](/code_snippets/05_Trees)
+    * [Representing a tree using nodes and references](/code_snippets/05_Trees/Number_01.py)
