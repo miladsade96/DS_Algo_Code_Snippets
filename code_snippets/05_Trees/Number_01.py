@@ -61,3 +61,7 @@ class TestBinaryTree(unittest.TestCase):
 
     def test_set_root_val(self):
         self.assertTrue(self.r.get_right_child(), "z")
+
+
+if __name__ == '__main__':
+    unittest.main()
