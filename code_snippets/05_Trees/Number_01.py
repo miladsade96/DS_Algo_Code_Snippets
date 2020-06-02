@@ -2,6 +2,8 @@
     Representing a Tree
     Nodes and References
 """
+# importing relevant libraries
+import unittest
 
 
 class BinaryTree(object):
