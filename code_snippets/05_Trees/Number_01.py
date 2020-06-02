@@ -18,3 +18,11 @@ class BinaryTree(object):
             t = BinaryTree(newNode)
             t.leftChild = self.leftChild
             self.leftChild = t
+
+    def insert_right(self, newNode):
+        if self.rightChild is None:
+            self.rightChild = BinaryTree(newNode)
+        else:
+            t = BinaryTree(newNode)
+            t.rightChild = self.rightChild
+            self.rightChild = t
