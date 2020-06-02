@@ -48,3 +48,16 @@ class TestBinaryTree(unittest.TestCase):
         self.r.insert_left("b")
         self.r.insert_right("c")
         self.r.get_right_child().set_root_val("z")
+
+    def test_init_method(self):
+        self.assertIsInstance(self.r, BinaryTree)
+
+    def test_get_root_val(self):
+        self.assertEqual(self.r.get_root_val(), "a")
+
+    def test_left_right_child(self):
+        self.assertTrue(self.r.get_left_child(), "b")
+        self.assertTrue(self.r.get_right_child(), "c")
+
+    def test_set_root_val(self):
+        self.assertTrue(self.r.get_right_child(), "z")
