@@ -10,3 +10,5 @@
             subtree and the right subtree followed by a visit to the root
             node.
 """
+# import relevant classes
+from .Number_01 import BinaryTree
