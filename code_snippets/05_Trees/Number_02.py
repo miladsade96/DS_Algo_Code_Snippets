@@ -24,3 +24,15 @@ def preorder(tree: BinaryTree) -> None:
         print(tree.get_root_val())
         preorder(tree.get_left_child())
         preorder(tree.get_right_child())
+
+
+def postorder(tree: BinaryTree) -> None:
+    """
+    Postorder recursive implementation
+    :param tree: passed binary tree object
+    :return: None
+    """
+    if tree is not None:
+        postorder(tree.get_left_child())
+        postorder(tree.get_right_child())
+        print(tree.get_root_val())
