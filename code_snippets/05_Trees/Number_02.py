@@ -12,3 +12,15 @@
 """
 # import relevant classes
 from .Number_01 import BinaryTree
+
+
+def preorder(tree: BinaryTree) -> None:
+    """
+    Preorder recursive implementation
+    :param tree: passed binary tree object
+    :return: None
+    """
+    if tree:
+        print(tree.get_root_val())
+        preorder(tree.get_left_child())
+        preorder(tree.get_right_child())
