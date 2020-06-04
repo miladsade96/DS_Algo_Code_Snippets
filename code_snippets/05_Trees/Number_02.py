@@ -36,3 +36,15 @@ def postorder(tree: BinaryTree) -> None:
         postorder(tree.get_left_child())
         postorder(tree.get_right_child())
         print(tree.get_root_val())
+
+
+def inorder(tree: BinaryTree) -> None:
+    """
+    Inorder recursive implementation
+    :param tree: passed binary tree object
+    :return: None
+    """
+    if tree is not None:
+        inorder(tree.get_left_child())
+        print(tree.get_root_val())
+        inorder(tree.get_right_child())
