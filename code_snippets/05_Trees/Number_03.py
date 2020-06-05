@@ -12,3 +12,10 @@
         6. size(): Returns the number of the items in the heap.
         7. build_heap(list): Builds a new heap from a list of keys.
 """
+
+
+class BinaryHeap(object):
+    """ Implementation of the Binary Heap"""
+    def __init__(self):
+        self.heap_list = [0]
+        self.current_size = 0
