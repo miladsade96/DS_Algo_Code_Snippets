@@ -16,6 +16,7 @@
 
 class BinaryHeap(object):
     """ Implementation of the Binary Heap"""
+
     def __init__(self):
         self.heap_list = [0]
         self.current_size = 0
@@ -50,3 +51,11 @@ class BinaryHeap(object):
                 return i * 2
             else:
                 return i * 2 + 1
+
+    def del_min(self):
+        retval = self.heapList[1]
+        self.heapList[1] = self.heapList[self.current_size]
+        self.current_size = self.current_size - 1
+        self.heapList.pop()
+        self.percDown(1)
+        return retval
