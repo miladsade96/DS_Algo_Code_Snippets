@@ -35,29 +35,29 @@ class BinaryHeap(object):
         self.perc_up(self.current_size)
 
     def perc_down(self, i):
-        while (i * 2) <= self.currentSize:
-            mc = self.minChild(i)
-            if self.heapList[i] > self.heapList[mc]:
-                tmp = self.heapList[i]
-                self.heapList[i] = self.heapList[mc]
-                self.heapList[mc] = tmp
+        while (i * 2) <= self.current_size:
+            mc = self.min_child(i)
+            if self.heap_list[i] > self.heap_list[mc]:
+                tmp = self.heap_list[i]
+                self.heap_list[i] = self.heap_list[mc]
+                self.heap_list[mc] = tmp
             i = mc
 
     def min_child(self, i):
-        if i * 2 + 1 > self.currentSize:
+        if i * 2 + 1 > self.current_size:
             return i * 2
         else:
-            if self.heapList[i * 2] < self.heapList[i * 2 + 1]:
+            if self.heap_list[i * 2] < self.heap_list[i * 2 + 1]:
                 return i * 2
             else:
                 return i * 2 + 1
 
     def del_min(self):
-        retval = self.heapList[1]
-        self.heapList[1] = self.heapList[self.current_size]
+        retval = self.heap_list[1]
+        self.heap_list[1] = self.heap_list[self.current_size]
         self.current_size = self.current_size - 1
-        self.heapList.pop()
-        self.percDown(1)
+        self.heap_list.pop()
+        self.perc_down(1)
         return retval
 
     def build_heap(self, alist):
