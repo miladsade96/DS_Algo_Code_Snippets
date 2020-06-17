@@ -41,3 +41,12 @@ class BinaryHeap(object):
                 self.heapList[i] = self.heapList[mc]
                 self.heapList[mc] = tmp
             i = mc
+
+    def min_child(self, i):
+        if i * 2 + 1 > self.currentSize:
+            return i * 2
+        else:
+            if self.heapList[i * 2] < self.heapList[i * 2 + 1]:
+                return i * 2
+            else:
+                return i * 2 + 1
