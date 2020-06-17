@@ -32,3 +32,12 @@ class BinaryHeap(object):
         self.heap_list.append(k)
         self.current_size = self.current_size + 1
         self.perc_up(self.current_size)
+
+    def perc_down(self, i):
+        while (i * 2) <= self.currentSize:
+            mc = self.minChild(i)
+            if self.heapList[i] > self.heapList[mc]:
+                tmp = self.heapList[i]
+                self.heapList[i] = self.heapList[mc]
+                self.heapList[mc] = tmp
+            i = mc
