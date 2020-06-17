@@ -41,3 +41,4 @@ Python Data Structures and Algorithms Code Snippets
 * [Trees](/code_snippets/05_Trees)
     * [Representing a tree using nodes and references](/code_snippets/05_Trees/Number_01.py)
     * [Tree traversals: preorder, postorder, inorder](/code_snippets/05_Trees/Number_02.py)
+    * [Binary heap implementation](/code_snippets/05_Trees/Number_03.py)
